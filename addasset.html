@@ -899,46 +899,37 @@
             </div>
         </div>
 
-        <!-- Mobile Navigation - FIXED -->
-        <div class="nav-wrapper">
-            <button class="nav-scroll-btn left hidden" id="navScrollLeft">
-                <i class="fas fa-chevron-left"></i>
+        <!-- Mobile Navigation -->
+        <nav class="mobile-nav">
+            <button class="nav-tab" onclick="window.location.href='dashboard.html'">
+                <i class="fas fa-tachometer-alt"></i>
+                <span>Dashboard</span>
             </button>
-            <button class="nav-scroll-btn right hidden" id="navScrollRight">
-                <i class="fas fa-chevron-right"></i>
+            <button class="nav-tab" onclick="window.location.href='scanqr.html'">
+                <i class="fas fa-qrcode"></i>
+                <span>Scan QR</span>
             </button>
-            
-            <nav class="mobile-nav" id="mobileNav">
-                <button class="nav-tab" onclick="window.location.href='Dashboard.html'">
-                    <i class="fas fa-tachometer-alt"></i>
-                    <span>Dashboard</span>
-                </button>
-                <button class="nav-tab" onclick="window.location.href='ScanQR.html'">
-                    <i class="fas fa-qrcode"></i>
-                    <span>Scan QR</span>
-                </button>
-                <button class="nav-tab active" onclick="window.location.href='AddAsset.html'">
-                    <i class="fas fa-plus-circle"></i>
-                    <span>Add Asset</span>
-                </button>
-                <button class="nav-tab" onclick="window.location.href='Inventory.html'">
-                    <i class="fas fa-boxes-stacked"></i>
-                    <span>Inventory</span>
-                </button>
-                <button class="nav-tab" onclick="window.location.href='Firebase.html'">
-                    <i class="fas fa-database"></i>
-                    <span>Firebase</span>
-                </button>
-                <button class="nav-tab" onclick="window.location.href='FullReport.html'">
-                    <i class="fas fa-file-alt"></i>
-                    <span>Full Report</span>
-                </button>
-                <button class="nav-tab" onclick="window.location.href='InventoryMap.html'">
-                    <i class="fas fa-map-location-dot"></i>
-                    <span>Inventory Map</span>
-                </button>
-            </nav>
-        </div>
+            <button class="nav-tab" onclick="window.location.href='addasset.html'">
+                <i class="fas fa-plus-circle"></i>
+                <span>Add Asset</span>
+            </button>
+            <button class="nav-tab" onclick="window.location.href='inventory.html'">
+                <i class="fas fa-boxes-stacked"></i>
+                <span>Inventory</span>
+            </button>
+            <button class="nav-tab" onclick="window.location.href='firebase.html'">
+                <i class="fas fa-database"></i>
+                <span>Firebase</span>
+            </button>
+            <button class="nav-tab" onclick="window.location.href='fullreport.html'">
+                <i class="fas fa-file-alt"></i>
+                <span>Full Report</span>
+            </button>
+            <button class="nav-tab active" onclick="window.location.href='inventorymap.html'">
+                <i class="fas fa-map-location-dot"></i>
+                <span>Inventory Map</span>
+            </button>
+        </nav>
     </header>
 
     <!-- Main Content -->
